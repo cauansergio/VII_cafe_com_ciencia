@@ -94,12 +94,12 @@ body {
 .btn-outline {
     background-color: transparent;
     border: 2px solid var(--verde-folha);
-    color: var(--branco);
+    color: var(--verde-folha);
 }
 
 .btn-outline:hover {
     background-color: var(--branco);
-    color: var(--azul-petroleo);
+    color: var(--verde-folha);
     border-color: var(--branco);
 }
 
@@ -515,6 +515,23 @@ footer {
     color: var(--branco);
     text-decoration: none;
 }
+.logo-cafe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.logo-cafe:hover {
+    transform: scale(1.2);
+}
+.logo-img-cafe {
+    width: 190px;
+    height:150px;
+    justify-content: center;
+    object-fit: contain;
+    filter: none;
+    opacity: 1;}
 
 /* Responsivo */
 @media (max-width: 768px) {
